@@ -1,4 +1,4 @@
-## [Click this to know more about **Advent of Code**](https://adventofcode.com/2020/about)
+## [**Advent of Code**](https://adventofcode.com/2020/about)
 
 >This repository contains all my solutions for the Advent of code Challenges
 
