@@ -9,3 +9,4 @@
 
 ## The Repo
 - Each problem statement has its own folder which mostly contains its README.md, an input file, and index.py.
+- the [`setup.py`](./setup.py) file is a py application to automate the work of creating a new folder everyday for a new days challenge.
