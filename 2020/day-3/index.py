@@ -1,5 +1,4 @@
-
-# Part - 2
+# I merged both Part - 1 and Part - 2 into a single function 
 
 slopes_part_1 = [[3,1]]  
 slopes_part_2 = [[1,1],[3,1],[5,1],[7,1],[1,2]]  
