@@ -4,15 +4,14 @@ with open("input.txt") as input_:
 	count = 0
 	for i in input_:
 		if i == "\n":
-			list_ = sorted(list_, reverse=True)
-			if count > list_[-1]:
-				list_[-1] = count
+			list_ = sorted(list_)
+			if count > list_[0]:
+				list_[0] = count
 			count = 0
 		else: count += int(i)
 
-	# max_ = max(count, max_)
-	list_ = sorted(list_, reverse=True)
-	if count > list_[-1]:
-		list_[-1] = count
+	list_ = sorted(list_)
+	if count > list_[0]:
+		list_[0] = count
 
 print(sum(list_))
